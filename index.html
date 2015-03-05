@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marketing Request Form</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="form-container">
+		<form action="" method="">
+			
+			<div class="column">
+				<label for="name">First Name:</label>
+				<input type="text" id="name" placeholder="Name">
+
+				<label for="phone">Phone:</label>
+				<input type="text" id="phone" placeholder="Phone">
+
+				<label for="email">Email</label>
+				<input type="text" id="email" placeholder="Your Email">
+
+				<h4>Type of Request</h4>
+				<label for="requestType">Request Type</label>
+				<select name="requestType" id="requestType">
+					<option value="bc-er">Business Card - ER</option>
+					<option value="bc-rush">Business Card - Rush</option>
+					<option value="evt-poster">Event Poster</option>
+					<option value="lit">ER Literature</option>
+					<option value="promo-ban">Promotional Banner</option>
+					<option value="promo-email">Promotional Email</option>
+				</select>
+			</div> <!-- End column -->
+		</form> <!-- End general form -->
+	</div> <!-- End 1st form container -->
+
+	<div class="form-container form-hide" id="bc-rush">
+		<form action="" method="">
+			<div class="col">
+				<h2>RUSH Business Cars Order Form</h2>
+				<label for="bc-rush-name">Name</label>
+				<input type="text" name="bc-rush-name" id="name" placeholder="Name">
+
+				<label for="bc-rush-title">Title</label>
+				<input type="text" name="bc-rush-title" id="name" placeholder="Manager, Admin, etc.">
+					
+				<label for="bc-rush-address">Address</label>
+				<input type="text" name="bc-rush-address" id="name" placeholder="Address">
+
+				<label for="bc-rush-city">City / State / Zip</label>
+				<input type="text" name="bc-rush-name" id="name" placeholder="City / State / Zip">
+
+				<label for="bc-rush-email">Email</label>
+				<input type="text" name="bc-rush-email" id="" placeholder="@rushcomputer.com">
+
+				<label for="bc-rush-man-email">Manager Email</label>
+				<input type="text" name="bc-rush-man-email" id="" placeholder="@rushcomputer.com">
+
+				<label for="bc-rush-ship-address">Shipping Address</label>
+				<input type="text" name="bc-rush-ship-address" id="" placeholder="Shipping Address">
+			</div>
+				<div class="col">
+					<h4>Phone Numbers</h4>
+					<label for="bc-rush-phone-direct">Direct</label>
+					<input type="text" name="bc-rush-phone-direct" placeholder="Direct">
+	
+					<label for="bc-rush-phone-office">Office</label>
+					<input type="text" name="bc-rush-phone-office" placeholder="Office">
+	
+					<label for="bc-rush-phone-toll">Toll Free</label>
+					<input type="text" name="bc-rush-phone-toll" value="800.343.7368" disabled>
+	
+					<label for="bc-rush-phone-cell">Cell</label>
+					<input type="text" name="bc-rush-phone-cell" placeholder="Cell">
+	
+					<label for="bc-rush-phone-fax">Fax</label>
+					<input type="text" name="bc-rush-phone-fax" placeholder="Fax">
+	
+					<label for="bc-rush-phone-other">Other</label>
+					<input type="text" name="bc-rush-phone-other" placeholder="Other">
+			
+			</div>
+
+			
+		</form> <!-- end rush bc form -->
+	</div> <!-- End rush business card form -->
+</body>
+</html>

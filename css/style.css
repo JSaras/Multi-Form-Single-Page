@@ -1,0 +1,44 @@
+.form-container {
+	position: relative;
+}
+
+.form-hide {
+	display: none;
+}
+
+.form-container:before, 
+.form-container:after { 
+	content: " "; display: table; 
+}
+
+.form-container:after { 
+	clear: both; 
+}
+
+.column {
+	width: 33.33%;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1;
+	font-size: 1.4em;
+	padding: 2px 10px;
+	
+	display: block;
+	width: 100%;
+	background: transparent;
+}
+
+#bc-rush {
+	width: 100%;
+}
+
+#bc-rush .col {
+	width: 40%;
+	float: left;
+	padding-right: 15px;
+}
+
