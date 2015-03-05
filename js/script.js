@@ -1,6 +1,9 @@
 $(document).ready(function() {
-	var reqType = document.getElementById('requestType');
-	var reqTypeSelections = reqType.getElementsByTagName('option').value;
 
-	
+	$('#requestType').change(function() {
+		var selection = $( "#requestType" ).val();
+
+		$('#' + selection).css('display', 'block');
+		console.log(selection)
+	})
 })
